@@ -1,5 +1,7 @@
 body {
+    margin: 0;
     overflow-x: hidden;
+    background-color: #E8D8B0;
 }
 html {
     height: 0;
@@ -48,10 +50,6 @@ html {
     left: 1800px;
 }
 
-body {
-    background-color: #E8D8B0;
-}
-
 .korzina{
     text-decoration: none;
     color: rgb(60, 37, 26);
@@ -76,72 +74,52 @@ body {
     left: 1815px;
 }
 
+.kvadrat {
+    display: flex;
+    justify-content: center;
+}
 #kvadrat {
     margin: 100px;
     width: 905px;
-    height: 238px;
     background-color: #F59073;
-    margin-left: 500px;
     border-radius: 45px;
+    padding-top: 1em;
+    text-align: center;
 }
 
-.pVKvadrate {
+#kvadrat > p {
     font-size: 24px;
     font-weight: bold;
     color: #332017;
-    position:absolute;
-    margin-left: 80px;
-    margin-top: 40px;
+    margin: 0;
 }
 
-.pVKvadrate1 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #332017;
-    position:absolute;
-    margin-left: 80px;
-    margin-top: 70px;
-}
-
-.pVKvadrate2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #332017;
-    position:absolute;
-    margin-left: 80px;
-    margin-top: 100px;
-}
-
-.pVKvadrate3 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #332017;
-    position:absolute;
-    margin-left: 80px;
-    margin-top: 130px;
-}
-
-.StrelkaVniz {
-    margin-left: 430px;
-    margin-top: 175px;
+hr {
+    border: 1px solid black;
+    width: 90%;
 }
 
 .nazvaniyaYeda {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: #332017;
     margin-top: 50px;
 }
 
+.food-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 60px;
+}
 
-
-#YEDA {
-    margin: 100px;
+.food {
     width: 248px;
     height: 327px;
     background-color: #FFB55F;
-    margin-left: 100px;
     border-radius: 37px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -167,132 +145,32 @@ p {
     margin-top: 20px;
 }
 
-#btn {
-    margin: 130px;
-    margin-top: -170px;
+.btn {
+    margin-top: 60px;
+    margin-left: 30px;
     width: 184px;
-    height: 45px;
+    height: 35px;
     background-color: #B6D96C;
     border-radius: 16px;
-}
-.btnA {
     text-align: center;
+    padding-top: 0.6em;
+}
+.btnA {    
     text-decoration: none;
     color: rgb(60, 37, 26);
-    margin-top: -30px;
-    margin-left: 50px;
 }
 
-#YEDAbibi {
-    margin: 100px;
-    width: 248px;
-    height: 327px;
-    background-color: #FFB55F;
-    margin-left: 600px;
-    margin-top: -430px;
-    border-radius: 37px;
+footer {
+    margin: 20px 0 0 0;
+    background-color: #446369;
+    height: 184px;
+    
+    color:white;
+    position: relative;
 }
-
-.bibiImg {
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-.pibimpab {
-    font-size: 14px;
+footer > div {
     position: absolute;
-    margin-left: 20px;
-    margin-top: 220px;
-}
-
-#btn1 {
-    margin: 635px;
-    margin-top: -172px;
-    width: 184px;
-    height: 45px;
-    background-color: #B6D96C;
-    border-radius: 16px;
-}
-.btnA1 {
+    bottom: 20px;
     text-align: center;
-    text-decoration: none;
-    color: rgb(60, 37, 26);
-    margin-top: -30px;
-    margin-left: 50px;
-}
-
-#YEDAkalmar {
-    margin: 100px;
-    width: 248px;
-    height: 327px;
-    background-color: #FFB55F;
-    margin-left: 1100px;
-    margin-top: -930px;
-    border-radius: 37px;
-}
-
-.kalImg {
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-.kalmar {
-    font-size: 10px;
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 220px;
-}
-
-#btn2 {
-    margin: 1140px;
-    margin-top: -175px;
-    width: 184px;
-    height: 45px;
-    background-color: #B6D96C;
-    border-radius: 16px;
-}
-.btnA2 {
-    text-align: center;
-    text-decoration: none;
-    color: rgb(60, 37, 26);
-    margin-top: -30px;
-    margin-left: 50px;
-}
-
-#YEDAvTeste {
-    margin: 100px;
-    width: 248px;
-    height: 327px;
-    background-color: #FFB55F;
-    margin-left: 1550px;
-    margin-top: -1440px;
-    border-radius: 37px;
-}
-
-.sosImg {
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-.sosiskiVTeste {
-    font-size: 16px;
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 220px;
-}
-
-#btn3 {
-    margin: 1590px;
-    margin-top: -170px;
-    width: 184px;
-    height: 45px;
-    background-color: #B6D96C;
-    border-radius: 16px;
-}
-.btnA3 {
-    text-align: center;
-    text-decoration: none;
-    color: rgb(60, 37, 26);
-    margin-top: -30px;
-    margin-left: 50px;
+    width: 100%;
 }
